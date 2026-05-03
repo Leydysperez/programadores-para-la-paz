@@ -1,0 +1,6 @@
+1.Buscar la información
+2.Revisar la fuente
+3.Confirmar la noticia
+4.Evaluar la intención
+5.Documentar el origen
+6.Publicar con transparencia
