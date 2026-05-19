@@ -6,3 +6,9 @@ Pregunta 3
 R/  C
 Pregunta 4
 R/ B
+ pregunta 9
+por que es importante para un desarrollador saber usar la terminal para navegar y utilizar archivo dentro de un proyecto
+
+
+navegar y organizar archivos es una habilidad fundamental que transforma la eficiencia y el control de un desarrollador sobre su entorno de trabajo.
+ Teclear comandos es considerablemente más rápido que hacer clics repetitivos en una interfaz gráfica Los servidores en la nube no tienen interfaz gráfica; la terminal es la única forma de gestionarlos.Permite crear secuencias de comandos (scripts) para tareas repetitivas de organización de archivos.,
