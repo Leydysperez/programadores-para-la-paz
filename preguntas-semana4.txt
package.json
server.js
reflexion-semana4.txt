@@ -1,3 +1,111 @@
 package.json
 server.js
 reflexion-semana4.txt
+
+
+Report issues at https://bugs.termux.com
+~ $ semana 4.
+No command semana found, did you mean:
+ Command emacs in package emacs
+ Command emacs in package emacs-x from the x11-repo repository
+ Command geany in package geany from the x11-repo repository
+ Command scan6 in package ipv6toolkit
+ Command seatd in package libseat
+ Command scan in package mailutils
+ Command man in package mandoc
+ Command scan in package nmh
+ Command tfman in package notcurses-tools
+ Command sem in package parallel
+ Command remind in package remind
+ Command scala in package scala
+ Command sclang in package supercollider
+~ $ cd semana 4
+bash: cd: too many arguments
+~ $ npm init -y
+The program npm is not installed. Install it by executing:
+ pkg install npm
+~ $ package.json
+package.json: command not found
+~ $
+~ $ npm install express
+The program npm is not installed. Install it by executing:
+ pkg install npm
+~ $
+~ $ server.js
+server.js: command not found
+~ $
+~ $ const express = require('express');
+bash: syntax error near unexpected token `('
+~ $ const app = express();
+bash: syntax error near unexpected token `('
+~ $
+~ $ app.get('/', (req, res) => {
+bash: syntax error near unexpected token `'/','
+~ $   res.send('Servidor funcionando correctamente');
+bash: syntax error near unexpected token `'Servidor funcionando correctamente''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ app.listen(3000, () => {
+bash: syntax error near unexpected token `3000,'
+~ $   console.log('Servidor ejecutándose en puerto 3000');
+bash: syntax error near unexpected token `'Servidor ejecutándose en puerto 3000''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ node server.js
+The program node is not installed. Install it by executing:
+ pkg install nodejs
+or
+ pkg install nodejs-lts
+~ $
+~ $ http://localhost:3000
+bash: http://localhost:3000: No such file or directory
+~ $
+~ $ Reflexion semana 4
+Reflexion: command not found
+~ $ Es fundamental que las comunidades y colectivos ciudadanos desarrollen su propia tecnología con herramientas abiertas como Node.js por razones de autonomía, costos y adaptabilidad. Cuando los ciudadanos dependen de software comercial cerrado, quedan sujetos a las reglas, precios y decisiones de grandes corporaciones tecnológicas que rara vez entienden las realidades locales.Privacidad: Las comunidades deciden exactamente cómo se recolectan, almacenan y protegen los datos de sus vecinos, evitando el espionaje o la mercantilización de su información
+No command Es found, did you mean:
+ Command as in package binutils-bin
+ Command ls in package coreutils
+ Command gs in package ghostscript
+ Command ss in package iproute2
+ Command ts in package moreutils
+ Command ps in package procps
+~ $ Sin intermediarios: Al ser dueños del código, el proyecto no corre el riesgo de desaparecer si una empresa decide cerrar el servicio o cambiar drásticamente sus términos y condiciones.
+No command Sin found, did you mean:
+ Command ein in package gitoxide
+~ $ Gratuidad: Node.js, Express y su ecosistema no cobran licencias por uso. Esto permite que proyectos comunitarios con presupuesto cero puedan nacer y operar.
+Gratuidad:: command not found
+~ $ Servidores económicos: La alta eficiencia de Node.js (que consume muy pocos recursos de memoria) permite que estas aplicaciones funcionen en servidores muy baratos o incluso en computadoras antiguas recicladas por la comunidad.
+bash: syntax error near unexpected token `('
+~ $
+~ $ git add .
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $ git commit -m "Actividad semana 4"
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $ git push
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $
+~ $ preguntas-semana4.txt
+preguntas-semana4.txt: command not found
+~ $ Pregunta 1
+Pregunta: command not found
+~ $ R/  B
+bash: R/: No such file or directory
+~ $ Pregunta 2
+Pregunta: command not found
+~ $ R/ B
+bash: R/: No such file or directory
+~ $ Pregunta 3
+Pregunta: command not found
+~ $ R/  B
+bash: R/: No such file or directory
+~ $ Pregunta 4
+Pregunta: command not found
+~ $ R/ B
+bash: R/: No such file or directory
+~ $
