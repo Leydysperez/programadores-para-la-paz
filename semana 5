@@ -1,0 +1,187 @@
+
+Report issues at https://bugs.termux.com
+~ $ server.js
+server.js: command not found
+~ $ const express = require('express');
+bash: syntax error near unexpected token `('
+res) => {
+  const nombre = req.params.nombre;
+  res.send('Hola ' +~ $ const app = express();
+bash: syntax error near unexpected token `('
+000');
+});~ $
+~ $ app.use(express.json());
+bash: syntax error near unexpected token `express.json'
+~ $
+~ $ app.get('/', (req, res) => {
+bash: syntax error near unexpected token `'/','
+~ $   res.send('Servidor activo');
+bash: syntax error near unexpected token `'Servidor activo''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ app.get('/saludo', (req, res) => {
+bash: syntax error near unexpected token `'/saludo','
+~ $   res.send('Hola comunidad');
+bash: syntax error near unexpected token `'Hola comunidad''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ app.get('/mensaje/:nombre', (req, res) => {
+bash: syntax error near unexpected token `'/mensaje/:nombre','
+~ $   const nombre = req.params.nombre;
+No command const found, did you mean:
+ Command cpnt in package chntpw
+ Command ctest in package cmake
+ Command host in package dnsutils
+ Command dunst in package dunst from the x11-repo repository
+ Command cast in package foundry
+ Command gost in package gost
+ Command count in package llvm-tools
+ Command most in package most
+ Command chpst in package runit
+~ $   res.send('Hola ' + nombre);
+bash: syntax error near unexpected token `'Hola ''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ app.listen(3000, () => {
+bash: syntax error near unexpected token `3000,'
+~ $   console.log('Servidor ejecutándose en puerto 3000');
+bash: syntax error near unexpected token `'Servidor ejecutándose en puerto 3000''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ pregunta 7
+No command pregunta found, did you mean:
+ Command prefcnt in package dwarves
+~ $ node server.js
+The program node is not installed. Install it by executing:
+ pkg install nodejs
+or
+ pkg install nodejs-lts
+~ $ http://localhost:3000
+bash: http://localhost:3000: No such file or directory
+~ $ http://localhost:3000/saludo
+bash: http://localhost:3000/saludo: No such file or directory
+~ $ http://localhost:3000/mensaje/juan
+bash: http://localhost:3000/mensaje/juan: No such file or directory
+~ $
+~ $ .txt.
+No command .txt. found, did you mean:
+ Command attr in package attr
+ Command ptx in package coreutils
+ Command tftp in package inetutils
+ Command next in package mailutils
+ Command next in package nmh
+ Command tut in package tut
+~ $ pregunta 8
+No command pregunta found, did you mean:
+ Command prefcnt in package dwarves
+~ $ server.js.
+server.js.: command not found
+~ $ app.post('/reporte', (req, res) => {
+bash: syntax error near unexpected token `'/reporte','
+~ $   const mensaje = req.body.mensaje;
+No command const found, did you mean:
+ Command cpnt in package chntpw
+ Command ctest in package cmake
+ Command host in package dnsutils
+ Command dunst in package dunst from the x11-repo repository
+ Command cast in package foundry
+ Command gost in package gost
+ Command count in package llvm-tools
+ Command most in package most
+ Command chpst in package runit
+~ $   res.json({
+bash: syntax error near unexpected token `{'
+~ $     estado: "Reporte recibido",
+No command estado: found, did you mean:
+ Command gst-doc in package smalltalk
+~ $     mensaje: mensaje
+No command mensaje: found, did you mean:
+ Command messages in package mailutils
+~ $   });
+bash: syntax error near unexpected token `}'
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ conceptos-api.txt
+conceptos-api.txt: command not found
+~ $
+~ $ conceptos-api.txt.
+conceptos-api.txt.: command not found
+~ $ conectar digitalmente a personas con un entorno, propósito o interés común, facilitando la organización interna, la comunicación directa y el apoyo mutuo sin depender de redes sociales
+conectar: command not found
+~ $ pregunta 9
+No command pregunta found, did you mean:
+ Command prefcnt in package dwarves
+~ $ Reflexion -semana5.txt
+Reflexion: command not found
+~ $ Las APIs (Interfaces de Programación de Aplicaciones) permiten que diferentes sistemas de software se comuniquen entre sí, transformando datos dispersos en una red organizada de colaboración ciudadana. [1]
+bash: syntax error near unexpected token `('
+~ $
+~ $ • Webhooks inmediatos: Envían notificaciones masivas a los teléfonos de los vecinos apenas se detecta un peligro.Difusión multisistema: Publican la misma alerta simultáneamente en WhatsApp, Telegram, redes sociales y sirenas comunitarias.Filtros de urgencia: Priorizan situaciones críticas (incendios, inundaciones) sobre reportes menores (baches).
+bash: syntax error near unexpected token `('
+~ $ pregunta 10
+No command pregunta found, did you mean:
+ Command prefcnt in package dwarves
+~ $ git add .
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $ git commit -m "Actividad semana 5"
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $ git push
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $
+~ $ pkg install git
+Get:1 https://termux.net stable InRelease [1089 B]
+Get:2 https://termux.net stable/main aarch64 Packages [253 kB]
+Fetched 255 kB in 1s (182 kB/s)
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+git is already the newest version (2.54.0).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 3
+~ $
+~ $ termux-change-repo
+termux-change-repo: command not found
+~ $
+~ $ pkg update && pkg upgrade
+Hit:1 https://termux.net stable InRelease
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Hit:1 https://termux.net stable InRelease
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Upgrading:
+  command-not-found  libsmartcols  util-linux
+
+Summary:
+  Upgrading: 3, Installing: 0, Removing: 0, Not Upgrading: 0
+  Download size: 975 kB
+  Space needed: 205 kB
+
+Continue? [Y/n]
+Get:1 https://termux.net stable/main aarch64 libsmartcols aarch64 2.42.1 [103 kB]
+Get:2 https://termux.net stable/main aarch64 util-linux aarch64 2.42.1 [772 kB]
+Get:3 https://termux.net stable/main aarch64 command-not-found aarch64 3.4.1-11 [99.8 kB]
+Fetched 975 kB in 1s (885 kB/s)
+(Reading database ... 5182 files and directories currently installed.)
+Preparing to unpack .../libsmartcols_2.42.1_aarch64.deb ...
+Unpacking libsmartcols (2.42.1) over (2.41.3) ...
+Setting up libsmartcols (2.42.1) ...
+(Reading database ... 5182 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.42.1_aarch64.deb ...
+Unpacking util-linux (2.42.1) over (2.41.3) ...
+Setting up util-linux (2.42.1) ...
+(Reading database ... 5182 files and directories currently installed.)
+Preparing to unpack .../command-not-found_3.4.1-11_aarch64.deb ...
+Unpacking command-not-found (3.4.1-11) over (3.4.1-10) ...
+Setting up command-not-found (3.4.1-11) ...
+~ $
+~ $ pkg install git
+git is already the newest version (2.54.0).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+~ $
+~ $
