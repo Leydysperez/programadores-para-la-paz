@@ -118,3 +118,304 @@ Pregunta: command not found
 ~ $ R/ B
 bash: R/: No such file or directory
 ~ $https://github.com/Leydysperez/programadores-para-la-paz/blob/main/server.js
+Report issues at https://bugs.termux.com
+~ $ semana 4.
+No command semana found, did you mean:
+ Command emacs in package emacs
+ Command emacs in package emacs-x from the x11-repo repository
+ Command geany in package geany from the x11-repo repository
+ Command scan6 in package ipv6toolkit
+ Command seatd in package libseat
+ Command scan in package mailutils
+ Command man in package mandoc
+ Command scan in package nmh
+ Command tfman in package notcurses-tools
+ Command sem in package parallel
+ Command remind in package remind
+ Command scala in package scala
+ Command sclang in package supercollider
+~ $ cd semana 4
+bash: cd: too many arguments
+~ $ npm init -y
+The program npm is not installed. Install it by executing:
+ pkg install npm
+~ $ package.json
+package.json: command not found
+~ $
+~ $ npm install express
+The program npm is not installed. Install it by executing:
+ pkg install npm
+~ $
+~ $ server.js
+server.js: command not found
+~ $
+~ $ const express = require('express');
+bash: syntax error near unexpected token `('
+~ $ const app = express();
+bash: syntax error near unexpected token `('
+~ $
+~ $ app.get('/', (req, res) => {
+bash: syntax error near unexpected token `'/','
+~ $   res.send('Servidor funcionando correctamente');
+bash: syntax error near unexpected token `'Servidor funcionando correctamente''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ app.listen(3000, () => {
+bash: syntax error near unexpected token `3000,'
+~ $   console.log('Servidor ejecutándose en puerto 3000');
+bash: syntax error near unexpected token `'Servidor ejecutándose en puerto 3000''
+~ $ });
+bash: syntax error near unexpected token `}'
+~ $
+~ $ node server.js
+The program node is not installed. Install it by executing:
+ pkg install nodejs
+or
+ pkg install nodejs-lts
+~ $
+~ $ http://localhost:3000
+bash: http://localhost:3000: No such file or directory
+~ $
+~ $ Reflexion semana 4
+Reflexion: command not found
+~ $ Es fundamental que las comunidades y colectivos ciudadanos desarrollen su propia tecnología con herramientas abiertas como Node.js por razones de autonomía, costos y adaptabilidad. Cuando los ciudadanos dependen de software comercial cerrado, quedan sujetos a las reglas, precios y decisiones de grandes corporaciones tecnológicas que rara vez entienden las realidades locales.Privacidad: Las comunidades deciden exactamente cómo se recolectan, almacenan y protegen los datos de sus vecinos, evitando el espionaje o la mercantilización de su información
+No command Es found, did you mean:
+ Command as in package binutils-bin
+ Command ls in package coreutils
+ Command gs in package ghostscript
+ Command ss in package iproute2
+ Command ts in package moreutils
+ Command ps in package procps
+~ $ Sin intermediarios: Al ser dueños del código, el proyecto no corre el riesgo de desaparecer si una empresa decide cerrar el servicio o cambiar drásticamente sus términos y condiciones.
+No command Sin found, did you mean:
+ Command ein in package gitoxide
+~ $ Gratuidad: Node.js, Express y su ecosistema no cobran licencias por uso. Esto permite que proyectos comunitarios con presupuesto cero puedan nacer y operar.
+Gratuidad:: command not found
+~ $ Servidores económicos: La alta eficiencia de Node.js (que consume muy pocos recursos de memoria) permite que estas aplicaciones funcionen en servidores muy baratos o incluso en computadoras antiguas recicladas por la comunidad.
+bash: syntax error near unexpected token `('
+~ $
+~ $ git add .
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $ git commit -m "Actividad semana 4"
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $ git push
+fatal: not a git repository (or any parent up to mount point /data/data)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+~ $
+~ $ preguntas-semana4.txt
+preguntas-semana4.txt: command not found
+~ $ Pregunta 1
+Pregunta: command not found
+~ $ R/  B
+bash: R/: No such file or directory
+~ $ Pregunta 2
+Pregunta: command not found
+~ $ R/ B
+bash: R/: No such file or directory
+~ $ Pregunta 3
+Pregunta: command not found
+~ $ R/  B
+bash: R/: No such file or directory
+~ $ Pregunta 4
+Pregunta: command not found
+~ $ R/ B
+bash: R/: No such file or directory
+~ $ http://localhost:3000
+bash: http://localhost:3000: No such file or directory
+~ $ http://localhost:3000/saludo
+bash: http://localhost:3000/saludo: No such file or directory
+~ $ http://localhost:3000/mensaje/juanpkg install git
+bash: http://localhost:3000/mensaje/juanpkg: No such file or directory
+~ $
+~ $ termux-change-repo
+termux-change-repo: command not found
+~ $
+~ $ pkg update && pkg upgrade
+0% [Connected to termux.net (172.67.162.138)]
+Hit:1 https://termux.net stable InRelease
+20 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Hit:1 https://termux.net stable InRelease
+20 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Upgrading:
+  ca-certificates    curl      inetutils  liblzma     libsmartcols  openssl      util-linux
+  command-not-found  dos2unix  libcap-ng  libnghttp2  nano          readline     zlib
+  coreutils          gawk      libcurl    libngtcp2   ncurses       termux-exec
+
+Summary:
+  Upgrading: 20, Installing: 0, Removing: 0, Not Upgrading: 0
+  Download size: 8382 kB
+  Space needed: 270 kB
+
+Continue? [Y/n]
+Get:1 https://termux.net stable/main aarch64 ca-certificates all 1:2026.03.19 [125 kB]
+Get:2 https://termux.net stable/main aarch64 zlib aarch64 1.3.2 [62.9 kB]
+Get:3 https://termux.net stable/main aarch64 openssl aarch64 1:3.6.2 [2448 kB]
+Get:4 https://termux.net stable/main aarch64 coreutils aarch64 9.11 [812 kB]
+Get:5 https://termux.net stable/main aarch64 libnghttp2 aarch64 1.69.0 [95.4 kB]
+Get:6 https://termux.net stable/main aarch64 libngtcp2 aarch64 1.22.1 [167 kB]
+Get:7 https://termux.net stable/main aarch64 libcurl aarch64 8.20.0 [1003 kB]
+Get:8 https://termux.net stable/main aarch64 curl aarch64 8.20.0 [238 kB]
+Get:9 https://termux.net stable/main aarch64 ncurses aarch64 6.6.20260307+really6.5.20250830 [557 kB]
+Get:10 https://termux.net stable/main aarch64 readline aarch64 8.3.3 [294 kB]
+Get:11 https://termux.net stable/main aarch64 gawk aarch64 5.3.2 [873 kB]
+Get:12 https://termux.net stable/main aarch64 termux-exec aarch64 1.9 [6152 B]
+Get:13 https://termux.net stable/main aarch64 libsmartcols aarch64 2.41.3 [99.7 kB]
+Get:14 https://termux.net stable/main aarch64 libcap-ng aarch64 2:0.9.3 [38.5 kB]
+Get:15 https://termux.net stable/main aarch64 util-linux aarch64 2.41.3 [734 kB]
+Get:16 https://termux.net stable/main aarch64 liblzma aarch64 5.8.3 [193 kB]
+Get:17 https://termux.net stable/main aarch64 command-not-found aarch64 3.4.1-10 [99.7 kB]
+Get:18 https://termux.net stable/main aarch64 dos2unix aarch64 7.5.5 [65.0 kB]
+Get:19 https://termux.net stable/main aarch64 inetutils aarch64 2.7 [238 kB]
+Get:20 https://termux.net stable/main aarch64 nano aarch64 9.0 [233 kB]
+Fetched 8382 kB in 4s (2356 kB/s)
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../ca-certificates_1%3a2026.03.19_all.deb ...
+Unpacking ca-certificates (1:2026.03.19) over (1:2025.12.02) ...
+Setting up ca-certificates (1:2026.03.19) ...
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../zlib_1.3.2_aarch64.deb ...
+Unpacking zlib (1.3.2) over (1.3.1-1) ...
+Setting up zlib (1.3.2) ...
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../openssl_1%3a3.6.2_aarch64.deb ...
+Unpacking openssl (1:3.6.2) over (1:3.6.1) ...
+Setting up openssl (1:3.6.2) ...
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../coreutils_9.11_aarch64.deb ...
+Unpacking coreutils (9.11) over (9.9) ...
+Setting up coreutils (9.11) ...
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../libnghttp2_1.69.0_aarch64.deb ...
+Unpacking libnghttp2 (1.69.0) over (1.68.0-1) ...
+Setting up libnghttp2 (1.69.0) ...
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../libngtcp2_1.22.1_aarch64.deb ...
+Unpacking libngtcp2 (1.22.1) over (1.20.0) ...
+Setting up libngtcp2 (1.22.1) ...
+(Reading database ... 5177 files and directories currently installed.)
+Preparing to unpack .../libcurl_8.20.0_aarch64.deb ...
+Unpacking libcurl (8.20.0) over (8.18.0-1) ...
+Setting up libcurl (8.20.0) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../curl_8.20.0_aarch64.deb ...
+Unpacking curl (8.20.0) over (8.18.0-1) ...
+Setting up curl (8.20.0) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../ncurses_6.6.20260307+really6.5.20250830_aarch64.deb ...
+Unpacking ncurses (6.6.20260307+really6.5.20250830) over (6.6.20260124+really6.5.20250830) ...
+Setting up ncurses (6.6.20260307+really6.5.20250830) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../readline_8.3.3_aarch64.deb ...
+Unpacking readline (8.3.3) over (8.3.1-2) ...
+Setting up readline (8.3.3) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../gawk_5.3.2_aarch64.deb ...
+Unpacking gawk (5.3.2) over (5.3.1-2) ...
+Setting up gawk (5.3.2) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../termux-exec_1.9_aarch64.deb ...
+Unpacking termux-exec (1.9) over (1.8-1) ...
+Setting up termux-exec (1.9) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../libsmartcols_2.41.3_aarch64.deb ...
+Unpacking libsmartcols (2.41.3) over (2.41.2-1) ...
+Setting up libsmartcols (2.41.3) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../libcap-ng_2%3a0.9.3_aarch64.deb ...
+Unpacking libcap-ng (2:0.9.3) over (2:0.9) ...
+Setting up libcap-ng (2:0.9.3) ...
+(Reading database ... 5180 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.41.3_aarch64.deb ...
+Unpacking util-linux (2.41.3) over (2.41.2-1) ...
+Setting up util-linux (2.41.3) ...
+(Reading database ... 5183 files and directories currently installed.)
+Preparing to unpack .../liblzma_5.8.3_aarch64.deb ...
+Unpacking liblzma (5.8.3) over (5.8.2) ...
+Setting up liblzma (5.8.3) ...
+(Reading database ... 5183 files and directories currently installed.)
+Preparing to unpack .../command-not-found_3.4.1-10_aarch64.deb ...
+Unpacking command-not-found (3.4.1-10) over (3.2-16) ...
+Preparing to unpack .../dos2unix_7.5.5_aarch64.deb ...
+Unpacking dos2unix (7.5.5) over (7.5.2-1) ...
+Preparing to unpack .../inetutils_2.7_aarch64.deb ...
+Unpacking inetutils (2.7) over (2.6-1) ...
+Preparing to unpack .../archives/nano_9.0_aarch64.deb ...
+Unpacking nano (9.0) over (8.7.1) ...
+Setting up inetutils (2.7) ...
+Setting up command-not-found (3.4.1-10) ...
+Setting up nano (9.0) ...
+Setting up dos2unix (7.5.5) ...
+~ $ pkg install git
+git is already the newest version (2.54.0).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+~ $
+~ $ pkg
+Usage: pkg command [arguments]
+
+A tool for managing apt packages.
+
+Commands:
+
+  autoclean            - Remove all outdated packages from apt cache.
+
+  clean                - Remove all packages from apt cache.
+                         Using 16M now.
+
+  files <packages>     - Show all files installed by packages.
+
+  install <packages>   - Install specified packages.
+
+  list-all             - List all packages available in repositories.
+
+  list-installed       - List installed packages.
+
+  reinstall <packages> - Reinstall specified installed packages at the
+                         latest version.
+
+  search <query>       - Search package by query, for example by name or
+                         description part.
+
+  show <packages>      - Show basic metadata, such as dependencies.
+
+  uninstall <packages> - Uninstall specified packages. Configuration files
+                         will be left intact.
+
+  upgrade              - Upgrade all installed packages to the latest
+                         version.
+
+  update               - Update apt databases from configured
+                         repositories.
+
+~ $ y
+No command y found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package orbiton
+ Command q in package q-dns-client
+ Command ty in package ty
+ Command X in package xorg-server from the x11-repo repository
+ Command ya in package yazi
+ Command yq in package yq
+~ $
+~ $
+~ $ pkg install git
+git is already the newest version (2.54.0).
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+~ $
+~ $ y
+No command y found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package orbiton
+ Command q in package q-dns-client
+ Command ty in package ty
+ Command X in package xorg-server from the x11-repo repository
+ Command ya in package yazi
+ Command yq in package yq
+~ $
+~ $
