@@ -1,0 +1,5 @@
+* cuentas separadas: Evita el uso de credenciales compartidas para tareas administrativas.
+* Auditoria de roles : creo revisar periódicamente quién tiene acceso a las funciones más sensibles de la plataforma
+* sistema de reporte permite que los mismos usuarios denuncian comportamiento o publicaciones sospechosas con un solo clic
+* almacenamiento externo Guarda las copias de seguridad en un servidor o servicio de la nube totalmente independiente de la plataforma principal
+* bases de datos cifrados asegura que la contraseña guardada utilicen algoritmo de Haz fuerte como Bridge o argón y nunca se almacenen en texto plan
